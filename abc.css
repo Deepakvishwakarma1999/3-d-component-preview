@@ -1,0 +1,141 @@
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body,
+button {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 30px;
+}
+
+h3 {
+    font-family: "Big Shoulders Display", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 10px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.card-one {
+    background-color: var(--bright-orange);
+    color: white;
+    border-radius: 10px 0 0 10px;
+    padding: 50px;
+    height: 500px;
+}
+
+.card-one img {
+    margin: 20px;
+}
+
+.card-two img {
+    margin: 20px;
+}
+
+.card-three img {
+    margin: 20px;
+}
+
+.card-two {
+    background-color: var(--dark-cyan);
+    color: white;
+    border-radius: 0 0 0 0;
+    padding: 20px;
+    padding: 50px;
+    height: 500px;
+}
+
+.card-three {
+    background-color: var(--very-dark-cyan);
+    color: white;
+    border-radius: 0 10px 10px 0;
+    padding: 20px;
+    padding: 50px;
+    height: 500px;
+}
+
+.card-one button {
+    margin-top: 10px;
+}
+
+.card-two button {
+    margin-top: 10px;
+}
+
+.card-three button {
+    margin-top: 10px;
+}
+
+.card-one p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.card-two p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.card-three p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.btn {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: all 0.4s ease-out;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.card-one .btn {
+    color: var(--bright-orange);
+}
+
+.card-two .btn {
+    color: var(--dark-cyan);
+}
+
+.card-three .btn {
+    color: var(--very-dark-cyan);
+}
+
+@media (min-width: 992px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 900px;
+        min-height: 100vh;
+        margin: auto;
+    }
+}
